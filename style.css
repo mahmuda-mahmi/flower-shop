@@ -1,0 +1,210 @@
+* {
+       padding: 0;
+       margin: 0;
+       box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+button {
+       font-family: "Lato", sans-serif;
+       font-style: normal;
+}
+
+a {
+       text-decoration: none;
+}
+
+.container {
+       --bs-gutter-x: 1.5rem;
+       --bs-gutter-y: 0;
+       width: 1160px;
+       padding-right: calc(var(--bs-gutter-x) * .5);
+       padding-left: calc(var(--bs-gutter-x) * .5);
+       margin-right: auto;
+       margin-left: auto
+}
+
+/* ------------ Hero  section start ------------ */
+#hero {
+       background-color: #e5547325;
+}
+
+.hero-text {
+       width: 60%;
+       padding: 148px 0 100px 0;
+       display: inline-block;
+}
+
+.hero-text h1 {
+       font-size: 80px;
+       font-weight: 800;
+       color: #272727;
+}
+
+.hero-img {
+       width: 39%;
+       display: inline-block;
+       position: relative;
+}
+
+.hero-img img {
+       width: 100%;
+       position: absolute;
+       bottom: -118px;
+       right: -50px;
+}
+
+.hero-text p {
+       margin: 30px 0;
+       font-size: 18px;
+       line-height: 30px;
+       font-weight: 400;
+       color: #2727277c;
+}
+
+.hero-text button {
+       font-size: 16px;
+       font-weight: bold;
+       padding: 15px 30px;
+       border-radius: 5px;
+       border: none;
+       background-color: #E55473;
+       color: #FFFFFF;
+}
+
+/* -------------- Hero section end --------------- */
+
+
+/* ------------ Featured Section Start ------------- */
+
+#featured {
+       margin: 100px 50px 0px 50px;
+       text-align: center;
+       justify-content: center;
+}
+
+.featured-text {
+       padding: 0px 300px;
+}
+
+.featured-text h2 {
+       font-size: 40px;
+       font-weight: 800;
+       color: #272727;
+}
+
+.featured-text p {
+       margin: 20px 0;
+       margin: 30px 0 50px 0;
+       font-size: 18px;
+       font-weight: 400;
+       color: #2727277c;
+}
+
+#featured .f1-tree,
+.f2-tree,
+.f3-tree {
+       height: 370px;
+       width: 350px;
+       display: inline-block;
+       padding: 60px 60px 0px 60px;
+       border-radius: 50% 50% 5px 5px;
+       position: relative;
+}
+
+.f1-tree {
+       background-color: rgba(167, 33, 98, 0.15);
+}
+
+.f1-tree img,
+.f3-tree img {
+       position: absolute;
+       bottom: 0;
+       left: 20%;
+       width: 60%;
+}
+
+.f2-tree img {
+       position: absolute;
+       bottom: 25px;
+       left: 15%;
+       width: 80%;
+}
+
+.f2-tree {
+       background-color: rgba(5, 151, 160, 0.15);
+       margin: 0 39px;
+}
+
+.f3-tree {
+       background-color: rgba(71, 125, 17, 0.15);
+}
+
+/* ------------ Featured Section End ------------- */
+
+/* ------- latest deal --------- */
+
+#latest-deal {
+       padding: 100px 0;
+
+}
+
+#latest-deal .deal-img {
+       background-image: url(./image/Rectangle\ 9.png);
+       background-size: cover;
+       background-position: center;
+       background-repeat: no-repeat;
+       width: 100%;
+       text-align: center;
+       padding: 150px 0;
+       border-radius: 5px;
+}
+
+.deal-img h2 {
+       color: #272727;
+       font-size: 40px;
+}
+
+.deal-img p {
+       color: rgba(39, 39, 39, 0.6);
+       font-size: 18px;
+       line-height: 30px;
+}
+
+/* ------- latest deal --------- */
+
+/* ------------ footer ---------- */
+footer {
+       padding: 100px 0;
+       background-color: #111010;
+       text-align: center;
+}
+
+footer h2 {
+       font-size: 40px;
+       font-weight: 800;
+       color: #FFFFFF;
+}
+
+footer p {
+       margin: 20px 0;
+       padding: 0 30%;
+       font-size: 18px;
+       font-weight: 400;
+       color: rgba(255, 255, 255, 0.9);
+}
+
+footer h6 {
+       color: rgba(255, 255, 255, 0.4);
+       font-size: 16px;
+       font-weight: 400;
+}
+
+/* ------------- footer --------- */
