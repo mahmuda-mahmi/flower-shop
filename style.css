@@ -21,16 +21,17 @@ a {
        text-decoration: none;
 }
 
-h2{
+h2 {
        font-size: 40px;
        font-weight: 800;
 }
 
-p{
+p {
        font-size: 18px;
        line-height: 30px;
        font-weight: 400;
 }
+
 .container {
        --bs-gutter-x: 1.5rem;
        --bs-gutter-y: 0;
@@ -149,22 +150,84 @@ p{
        background-color: rgba(71, 125, 17, 0.15);
 }
 
-.f-support{
+.f-support {
        background-color: rgba(39, 39, 39, 0.05);
        margin-top: 100px;
        padding: 5% 10%;
        border-radius: 5px;
 }
 
-.f-support .support{
+.f-support .support {
        text-align: center;
        width: 33%;
        display: inline-block;
 }
 
-.f-support p{
+.f-support p {
        color: rgba(39, 39, 39, 0.8);
 }
+
+/* hot section starts */
+#hot {
+       background-color: rgba(229, 84, 115, 0.05);
+       margin-top: 100px;
+       padding: 100px 0;
+
+}
+
+#hot .container {
+       display: flex;
+       align-items: center;
+}
+
+.hot-text {
+       padding: 0 5%;
+       text-align: center;
+       width: 60%;
+       display: inline-block;
+}
+
+.hot-img {
+       width: 39%;
+       display: inline-block;
+}
+
+#hot button {
+       font-size: 16px;
+       font-weight: bold;
+       padding: 15px 30px;
+       border-radius: 5px;
+       border: none;
+       background-color: #E55473;
+       color: #FFFFFF;
+}
+
+.hot-text h2{
+       color: #272727;
+}
+
+.hot-text p{
+       margin: 30px 0;
+       color: rgba(39, 39, 39, 0.6);
+}
+
+
+#insta{
+       margin: 100px 50px 0px 50px;
+       text-align: center;
+       
+}
+
+.insta-img{
+       display: flex;
+       justify-content: center;
+       column-gap: 10px;
+}
+
+.insta-img img{
+       width: 24.3%;
+}
+
 
 /* ------- latest deal --------- */
 
