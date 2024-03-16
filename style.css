@@ -21,6 +21,16 @@ a {
        text-decoration: none;
 }
 
+h2{
+       font-size: 40px;
+       font-weight: 800;
+}
+
+p{
+       font-size: 18px;
+       line-height: 30px;
+       font-weight: 400;
+}
 .container {
        --bs-gutter-x: 1.5rem;
        --bs-gutter-y: 0;
@@ -38,7 +48,7 @@ a {
 
 .hero-text {
        width: 60%;
-       padding: 148px 0 100px 0;
+       padding: 70px 0 100px 0;
        display: inline-block;
 }
 
@@ -63,9 +73,6 @@ a {
 
 .hero-text p {
        margin: 30px 0;
-       font-size: 18px;
-       line-height: 30px;
-       font-weight: 400;
        color: #2727277c;
 }
 
@@ -95,16 +102,11 @@ a {
 }
 
 .featured-text h2 {
-       font-size: 40px;
-       font-weight: 800;
        color: #272727;
 }
 
 .featured-text p {
-       margin: 20px 0;
-       margin: 30px 0 50px 0;
-       font-size: 18px;
-       font-weight: 400;
+       margin: 20px 0 50px 0;
        color: #2727277c;
 }
 
@@ -147,7 +149,22 @@ a {
        background-color: rgba(71, 125, 17, 0.15);
 }
 
-/* ------------ Featured Section End ------------- */
+.f-support{
+       background-color: rgba(39, 39, 39, 0.05);
+       margin-top: 100px;
+       padding: 5% 10%;
+       border-radius: 5px;
+}
+
+.f-support .support{
+       text-align: center;
+       width: 33%;
+       display: inline-block;
+}
+
+.f-support p{
+       color: rgba(39, 39, 39, 0.8);
+}
 
 /* ------- latest deal --------- */
 
@@ -169,13 +186,10 @@ a {
 
 .deal-img h2 {
        color: #272727;
-       font-size: 40px;
 }
 
 .deal-img p {
        color: rgba(39, 39, 39, 0.6);
-       font-size: 18px;
-       line-height: 30px;
 }
 
 /* ------- latest deal --------- */
@@ -196,8 +210,6 @@ footer h2 {
 footer p {
        margin: 20px 0;
        padding: 0 30%;
-       font-size: 18px;
-       font-weight: 400;
        color: rgba(255, 255, 255, 0.9);
 }
 
